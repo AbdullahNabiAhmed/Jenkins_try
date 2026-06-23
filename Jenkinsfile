@@ -1,7 +1,7 @@
 pipeline {
 agent any
 
-```
+
 environment {
     DOCKER_IMAGE = 'abdullahdockers/jenkins-demo'
     IMAGE_TAG = "${BUILD_NUMBER}"
@@ -76,6 +76,6 @@ post {
         echo 'Pipeline failed! Check Jenkins logs.'
     }
 }
-```
+
 
 }
